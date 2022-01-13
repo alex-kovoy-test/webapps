@@ -16,6 +16,7 @@ const loggerService = createLoggerService({
 
 PreloadLogger.init(loggerService);
 
+// test
 const tshClient = createTshClient(runtimeSettings.tshd.networkAddr);
 const ptyServiceClient = createPtyService(runtimeSettings);
 const workspaceService = createWorkspaceService({
